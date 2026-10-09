@@ -423,3 +423,10 @@
   opacity: 0;
   animation-play-state: paused !important;
 }
+
+/* ---- Custom font (DBZ) ----
+ * Replace "Saiyan Sans" with the exact family name of the font you installed.
+ * "Segoe UI" is the fallback for characters the DBZ font doesn't include. */
+* {
+  font-family: "Saiyan Sans", "Segoe UI", sans-serif !important;
+}
